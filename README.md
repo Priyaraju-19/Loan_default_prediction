@@ -42,10 +42,11 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 3. Install the required dependencies:
 pip install -r requirements.txt
 ## Usage
-Data Preprocessing
+## Data Preprocessing
 Run the data preprocessing script to clean and prepare the data for modeling:
 python src/preprocess_data.py
-Model Training
+## Model Training
 Train the machine learning models using the preprocessed data:
 python src/train_model.py
-
+## Conclusion
+In this project, we developed a machine learning model to predict loan defaults. The goal was to use historical loan data to identify patterns and features indicative of default risk, thereby enabling financial institutions to make better-informed lending decisions.
